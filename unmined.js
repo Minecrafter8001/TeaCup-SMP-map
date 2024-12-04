@@ -333,7 +333,7 @@ class Unmined {
     }
 
     #createGraticuleLayer(coord) {
-        const bgColor = "#ffffff";
+        const bgColor = "#000000";
         const fgColor = "#222222";
 
         const intervalCount = this.olMap.getView().getMaxZoom() + 2;
